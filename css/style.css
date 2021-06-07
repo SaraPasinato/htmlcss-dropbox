@@ -137,10 +137,31 @@ body{
     width:85%;
     filter:drop-shadow(0 0 0.05rem #000);
 }
-/* fonts */
+
+/* section plans */
+.top-content .line-circle{
+    margin-top:30px;
+}
+/* fonts  & symbols*/
 h1{
     font-weight:900;
     font-size: 5em;
+}
+
+h2{
+    font-weight:700;
+    font-size: 3em;
+}
+
+span{
+    font-size: 20px;
+    padding:0 10px;
+}
+
+
+ .far.fa-circle.bold{
+    filter:drop-shadow(0 0 0.2rem #0060fe);
+    color: blue;
 }
 
 #hero .sub-content .box-left p:first-child{
