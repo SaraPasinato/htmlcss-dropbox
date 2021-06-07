@@ -23,7 +23,7 @@ body{
 }
 .container-small{
     padding: 10% 0;
-    height: 700px;
+    height: 1600px;
     background-color: teal;
     margin: 0 17%;
 }
@@ -241,7 +241,7 @@ em{
 }
 
 
-
+.far.fa-building,
 .far.fa-user{
     padding-right: 10px;
 }
