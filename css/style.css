@@ -11,12 +11,13 @@ clearfix::after{
     clear: both;
 }
 body{
-    max-width:1200px;
     font-family: 'Open Sans', sans-serif;
 }
 /* Utils*/
-.container-large{
-    height: 0;
+.container{
+    height: 700px;
+    background-color: teal;
+    margin: 0 auto;
 }
 
 
@@ -40,6 +41,17 @@ body{
 .f-left.w-80{
     width: 80%;
 }
+.f-right.w-30,
+.f-left.w-30{
+    width: 30%;
+    
+}
+.f-right.w-70,
+.f-left.w-70{
+    width: 70%;
+}
+
+
 .text-left{
     text-align: left;
 }
@@ -53,8 +65,8 @@ body{
 }
 
 /*header*/
+
 .main-header .topbar{
-    width: 100vw;
     height: 80px;
     line-height: 80px;
 }
@@ -62,15 +74,18 @@ body{
 #logo{
     line-height: 80px;
     padding-top: 5px; 
+    padding-left:20px ;
 }
+
+
 /* nav */
 
 .topbar .main-nav .right-nav{
-    padding-left: 30px;
+    padding-left: 25px;
 }
 .topbar .main-nav li{
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0 15px;
 
 }
 
@@ -83,7 +98,47 @@ body{
 .topbar .main-nav a:hover{
     text-decoration: underline;
 }
+/* Hero*/
+#hero{
+    background-color: #b4d0e6;
+    height: 700px;
+}
 
+#hero .container{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:violet;
+}
+
+#hero .sub-content{
+    padding-right:100px;
+    padding-top: 50px;
+
+}
+
+
+#hero .sub-content .box-right img{
+    width:98%;
+    filter:drop-shadow(0 0 0.05rem #000);
+}
+/* fonts */
+h1{
+    font-weight:900;
+    font-size: 5em;
+}
+
+#hero .sub-content .box-left p:first-child{
+    margin-bottom: 40px;
+    margin-top:0;
+}
+#hero .sub-content .box-left .fas.fa-arrow-down,
+#hero .sub-content .box-left p{
+    margin-top: 30px;
+}
 /* Signin btn */
 .topbar .signin{
     line-height: 80px;
@@ -98,5 +153,6 @@ body{
 .btn.btn-white{
   background-color: #0060fe;
   color: #fff;
+  text-decoration: none;
 
 }
