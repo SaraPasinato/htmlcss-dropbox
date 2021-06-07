@@ -15,7 +15,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* Utils*/
-
+.container-large{
+    height: 0;
+}
 
 
 .f-left{
@@ -25,19 +27,18 @@ body{
 .f-right{
     float:right;
 }
-
-.f-right.w-15,
-.f-left.w-15{
-    width: 15%;
-
+.f-right.w-10,
+.f-left.w-10{
+    width: 10%;
 }
+
 .f-right.w-50,
 .f-left.w-50{
     width: 50%;
 }
 
-.f-left.w-70{
-    width: 70%;
+.f-left.w-80{
+    width: 80%;
 }
 .text-left{
     text-align: left;
@@ -60,13 +61,12 @@ body{
 
 #logo{
     line-height: 80px;
-    padding-left: 30px;
-    padding-top: 5px;
+    padding-top: 5px; 
 }
 /* nav */
 
 .topbar .main-nav .right-nav{
-    padding-right: 30px;
+    padding-left: 30px;
 }
 .topbar .main-nav li{
     display: inline-block;
@@ -77,6 +77,7 @@ body{
 .topbar a{
     color:black;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .topbar .main-nav a:hover{
