@@ -13,6 +13,7 @@ clearfix::after{
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #fefffe;
+    min-width: 1700px;
 }
 
 /* Utils*/
@@ -23,7 +24,7 @@ body{
 }
 .container-small{
     padding: 10% 0 1% 0;
-    background-color:blueviolet;
+    /* background-color:blueviolet; */
     margin: 0 17%;
 }
 
@@ -247,11 +248,11 @@ body{
 /* section patners */
 #section-patners .content{
     height: 500px;
-    background-color: lime;
-    padding: 50px;
+    /* background-color: lime; */
+    
 }
 #section-patners .content img{
-  width:80%;
+  width:90%;
 }
 #section-patners .content .text-patner{
     padding:20px 50px;
