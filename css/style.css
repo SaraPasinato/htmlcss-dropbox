@@ -22,9 +22,8 @@ body{
     margin: 0 auto;
 }
 .container-small{
-    padding: 10% 0;
-    height: 1650px;
-    /* background-color:blueviolet; */
+    padding: 10% 0 1% 0;
+    background-color:blueviolet;
     margin: 0 17%;
 }
 
@@ -167,8 +166,10 @@ body{
 
 }
 /* padding inside col */
-
-.top-col h4,p{
+.col-content .link-buy{
+    padding-left: 40px;
+}
+.top-col h4, .top-col p{
     padding: 10px 30px 0 30px;
 }
 
@@ -242,6 +243,20 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
 }
+
+/* section patners */
+#section-patners .content{
+    height: 500px;
+    background-color: lime;
+    padding: 50px;
+}
+#section-patners .content img{
+  width:80%;
+}
+#section-patners .content .text-patner{
+    padding:20px 50px;
+}
+
 /* fonts  & symbols*/
 h1{
     font-weight:900;
@@ -253,9 +268,9 @@ h2{
     font-size: 3em;
 }
 h3{
-    font-weight:500;
-
-    font-size: 2em;
+    font-weight:600;
+    font-size: 2rem;
+    padding-bottom: 10px;
 }
 h4{
     font-weight:400;
@@ -306,14 +321,21 @@ em{
     padding:10px;
 }
 
-
+.btn.btn-border{
+    color: #000;
+    text-decoration: none;
+    border: 0.05em solid #000;
+  
+}
 .btn.btn-white{
   background-color: #0060fe;
   color: #fff;
   text-decoration: none;
 
 }
-
+.btn.btn-border.btn-small{
+    padding: 10px 20px;
+}
 .btn.btn-white.btn-large{
     padding: 10px 60px;
 }
