@@ -210,6 +210,11 @@ body{
     color:#0060fe;
 
   }
+
+#plan-cols .row{
+    height: 100px;
+    color:lime;
+  }
 /* fonts  & symbols*/
 h1{
     font-weight:900;
