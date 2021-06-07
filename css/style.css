@@ -132,15 +132,27 @@ body{
 
 }
 
-
 #hero .sub-content .box-right img{
     width:85%;
     filter:drop-shadow(0 0 0.05rem #000);
 }
 
+
 /* section plans */
 .top-content .line-circle{
-    margin-top:30px;
+    margin:30px 0;
+}
+
+.top-content .row-cols{
+    /* background-color: blue; */
+    height: 900px;
+}
+
+.top-content .row-cols .col{
+    width: calc(100%/3);
+    background-color: coral;  
+      height: 100%;
+
 }
 /* fonts  & symbols*/
 h1{
