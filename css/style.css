@@ -13,13 +13,20 @@ clearfix::after{
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Utils*/
+
 .container{
     height: 700px;
     background-color: teal;
     margin: 0 auto;
 }
-
+.container-small{
+    padding: 10% 0;
+    height: 700px;
+    background-color: teal;
+    margin: 0 17%;
+}
 
 .f-left{
     float: left;
@@ -41,14 +48,14 @@ body{
 .f-left.w-80{
     width: 80%;
 }
-.f-right.w-30,
-.f-left.w-30{
-    width: 30%;
+.f-right.w-40,
+.f-left.w-40{
+    width: 40%;
     
 }
-.f-right.w-70,
-.f-left.w-70{
-    width: 70%;
+.f-right.w-60,
+.f-left.w-60{
+    width: 60%;
 }
 
 
@@ -63,6 +70,7 @@ body{
 .text-center{
     text-align: center;
 }
+
 
 /*header*/
 
@@ -106,23 +114,27 @@ body{
 
 #hero .container{
     position: absolute;
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 60%;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     background-color:violet;
 }
 
+#hero .content{
+    padding: 0 100px;
+
+}
 #hero .sub-content{
-    padding-right:100px;
-    padding-top: 50px;
+    padding-top: 30px;
+   
 
 }
 
 
 #hero .sub-content .box-right img{
-    width:98%;
+    width:85%;
     filter:drop-shadow(0 0 0.05rem #000);
 }
 /* fonts */
@@ -134,6 +146,7 @@ h1{
 #hero .sub-content .box-left p:first-child{
     margin-bottom: 40px;
     margin-top:0;
+   
 }
 #hero .sub-content .box-left .fas.fa-arrow-down,
 #hero .sub-content .box-left p{
