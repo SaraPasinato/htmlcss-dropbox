@@ -1,9 +1,53 @@
+ /* Default*/
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: blue;
+clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
 }
+body{
+    max-width:1200px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Utils*/
+
+
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float:right;
+}
+
+.f-right.w-20,
+.f-left.w-20{
+    width: 20%;
+    background-color: red;
+}
+
+.f-left.w-60{
+    width: 60%;
+    background-color: blue;
+} 
+.text-left{
+    text-align: left;
+}
+/*header*/
+.main-header .topbar{
+    height: 80px;
+    background-color: gray;
+    line-height: 80px;
+}
+
+#logo{
+    line-height: middle;
+    padding-left: 20px;
+}
+/* nav */
