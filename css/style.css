@@ -18,13 +18,12 @@ body{
 
 .container{
     height: 700px;
-    background-color: teal;
     margin: 0 auto;
 }
 .container-small{
     padding: 10% 0;
-    height: 1600px;
-    background-color: teal;
+    height: 1650px;
+    background-color:blueviolet;
     margin: 0 17%;
 }
 
@@ -39,7 +38,10 @@ body{
 .f-left.w-10{
     width: 10%;
 }
-
+.f-right.w-30,
+.f-left.w-30{
+    width: 30%;
+}
 .f-right.w-50,
 .f-left.w-50{
     width: 50%;
@@ -57,7 +59,10 @@ body{
 .f-left.w-60{
     width: 60%;
 }
-
+.f-right.w-70,
+.f-left.w-70{
+    width: 70%;
+}
 
 .text-left{
     text-align: left;
@@ -119,7 +124,6 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    background-color:violet;
 }
 
 #hero .content{
@@ -150,9 +154,9 @@ body{
 
 .top-content .row-cols .col{
     width: calc(100%/3);
-    background-color: coral;  
     height: 100%;
     padding: 15px;
+    background-color: chartreuse;
     
 }
 
@@ -212,9 +216,30 @@ body{
   }
 
 #plan-cols .row{
-    height: 100px;
-    color:lime;
+    height: 200px;
+    padding: 15px;
   }
+
+#plan-cols .row .top-row{
+    height: 50px;
+    border: 0.2px solid gray;
+    padding:10px;
+    line-height: middle;
+}
+
+#plan-cols .row .bottom-row{
+    height: 150px;
+    border: 0.2px solid gray;
+    padding:20px;
+    line-height: middle;
+}
+
+
+.row .bottom-row p:last-child{
+    font: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
 /* fonts  & symbols*/
 h1{
     font-weight:900;
@@ -225,7 +250,11 @@ h2{
     font-weight:700;
     font-size: 3em;
 }
+h3{
+    font-weight:500;
 
+    font-size: 2em;
+}
 h4{
     font-weight:400;
     font-size: 1.5em;
