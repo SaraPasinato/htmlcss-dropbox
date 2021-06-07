@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
@@ -16,20 +16,30 @@
     <header class="main-header">
         <div class="topbar clearfix">
             <!--logo f-left -->
-            <div id="logo" class="f-left w-20 text-left">
-                <img src="./img/logo-small.png" alt="logo-small">
+            <div id="logo" class="f-left w-15 text-left">
+                <a href="#"><img src="./img/logo-small.png" alt="logo-small"></a>
             </div>
             <!-- nav: 2 ul -- w:50% float left t-left, f right t-right  -->
-            <div class="f-left w-60">
-                <nav class="main-nav">
+            <div class="f-left w-70">
+                <nav class="main-nav clearfix">
                     <!-- first ul -->
+                    <ul class="left-nav f-left w-50 text-left">
+                        <li><a href="#"> Perchè Dropbox?</a></li>
+                        <li><a href="#"> Funzioni </a></li>
+                        <li><a href="#">Piani e prezzi </a></li>
+                    </ul>
                     <!-- second ul -->
+                    <ul class="right-nav f-right w-50 text-right">
+                        <li><a href="#"> Supporto</a></li>
+                        <li><a href="#"> Contatta l'ufficio vendite </a></li>
+                        <li><a href="#">Accedi</a></li>
+                    </ul>
                 </nav>
             </div>
 
             <!-- btn Sign in f-right -->
-            <div class="f-right w-20">
-
+            <div class="signin f-right w-15 text-center">
+                <a class=" btn btn-white btn-large " href="#">Inizia</a>
             </div>
 
         </div>
