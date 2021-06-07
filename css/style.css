@@ -144,16 +144,72 @@ body{
 }
 
 .top-content .row-cols{
-    /* background-color: blue; */
-    height: 900px;
+
+    height: 1050px;
 }
 
 .top-content .row-cols .col{
     width: calc(100%/3);
     background-color: coral;  
-      height: 100%;
+    height: 100%;
+    padding: 15px;
+    
+}
+
+.top-content .row-cols .col .col-content{
+    border: 0.2px solid gray;
+    height: 100%;
 
 }
+/* padding inside col */
+
+.top-col h4,p{
+    padding: 10px 30px 0 30px;
+}
+
+
+.col .col-content .border-bottom{
+    border-bottom: 0.2px solid gray;
+    padding:10px;
+}
+
+.bottom-col,
+.center-col {
+   padding: 40px 40px 0 40px;
+}
+.center-col >*{
+    padding: 15px 0px;
+}
+
+.btn-center{
+    margin: 20px 0;
+}
+
+#plan-cols hr{
+    margin: 30px 30px;
+    width: 15%;
+    color: gray;
+}
+
+.bottom-col ul{
+    padding: 25px 0 ;
+    position:relative;
+}
+
+
+.bottom-col ul li{
+    padding-bottom: 15px;
+   list-style-type: none;
+    padding-left: 20px;
+   
+}
+.bottom-col ul li:before {
+    content:"\2714\0020";
+    position: absolute;
+    left: 0;
+    color:#0060fe;
+
+  }
 /* fonts  & symbols*/
 h1{
     font-weight:900;
@@ -165,12 +221,30 @@ h2{
     font-size: 3em;
 }
 
+h4{
+    font-weight:400;
+    font-size: 1.5em;
+}
 span{
     font-size: 20px;
     padding:0 10px;
 }
 
+em{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+    color: gray;
+    font-size: 12px;
+    padding-left: 30px;
+   
+}
 
+
+
+.far.fa-user{
+    padding-right: 10px;
+}
  .far.fa-circle.bold{
     filter:drop-shadow(0 0 0.2rem #0060fe);
     color: blue;
@@ -196,9 +270,14 @@ span{
     padding:10px;
 }
 
+
 .btn.btn-white{
   background-color: #0060fe;
   color: #fff;
   text-decoration: none;
 
+}
+
+.btn.btn-white.btn-large{
+    padding: 10px 60px;
 }
