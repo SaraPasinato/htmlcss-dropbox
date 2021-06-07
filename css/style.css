@@ -29,17 +29,15 @@ body{
 .f-right.w-15,
 .f-left.w-15{
     width: 15%;
-    background-color: red;
+
 }
 .f-right.w-50,
 .f-left.w-50{
     width: 50%;
-    background-color: yellow;
 }
 
 .f-left.w-70{
     width: 70%;
-    background-color: blue;
 }
 .text-left{
     text-align: left;
@@ -57,13 +55,13 @@ body{
 .main-header .topbar{
     width: 100vw;
     height: 80px;
-    background-color: gray;
     line-height: 80px;
 }
 
 #logo{
     line-height: 80px;
     padding-left: 30px;
+    padding-top: 5px;
 }
 /* nav */
 
