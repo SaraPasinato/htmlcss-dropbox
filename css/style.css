@@ -20,7 +20,7 @@ body{
 
 .container{
     min-width: 1700px;
-    height: 700px;
+    /* height: 700px; */
     margin: 0 auto;
     background-color:palegreen;
     
@@ -288,10 +288,7 @@ hr{
     padding-right:10px;
 }
 /************* section logos **************/
-#logos-section .client{
-    height:200px;
-    background-color: yellowgreen;
-}
+
 #logos-section #client-links{
     margin:10px 0;
 }
@@ -313,7 +310,6 @@ hr{
 
 #logos-section .content  .row{
     height: 50%;
-    background-color: springgreen;
 }
 #logos-section .content  .row .box-logo{
     height: 100%;
@@ -328,7 +324,7 @@ hr{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-
+    
 }
 
 #logos-section .content  .row .box-logo .img-small{
@@ -351,7 +347,20 @@ hr{
 .filter-b{
     filter:invert(100%);
 }
+/************* section trial **************/
+#trial-section{
+    height: 250px;
+    background-color:#b4d0e6 ;
+   
+}
 
+#trial-section .content{
+   padding: 0% 20%;
+}
+
+#trial-section .content .item{
+    margin: 50px;
+}
 /********** fonts  & symbols ********/
 h1{
     font-weight:900;
