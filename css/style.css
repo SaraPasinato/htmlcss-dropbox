@@ -598,24 +598,25 @@ blockquote p::after {
     filter:grayscale(0.1);
 }
 
+#brand7{
+ background-color: #0c2481;
+ }
 
- #brand7{
-     background-color: #0c2481;
-     
-  }
-  #brand7:hover{
-    border: 1em solid #485383;
-    filter:drop-shadow(10%);
-    filter:grayscale(0.1);
+#brand7:hover{
+ border: 1em solid #485383;
+ filter:drop-shadow(10%);
+ filter:grayscale(0.1);
 }
-  #brand8{
-     background-color: #fed82f;  
-  }
-  #brand8:hover{
-    border: 1em solid #f8e58f;
-    filter:drop-shadow(10%);
-    filter:grayscale(0.1);
+#brand8{
+ background-color: #fed82f;  
 }
-  .color-gray{
-      color:lightgray;
+
+#brand8:hover{
+ border: 1em solid #f8e58f;
+filter:drop-shadow(10%);
+ filter:grayscale(0.1);
+}
+
+.color-gray{
+color:lightgray;
   }
