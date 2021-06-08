@@ -19,13 +19,16 @@ body{
 /************ Utils **************/
 
 .container{
+    min-width: 1700px;
     height: 700px;
     margin: 0 auto;
+    background-color:palegreen;
+    position:relative;
 }
 
 .container-small{
     padding: 10% 0 1% 0;
-    background-color:blueviolet; 
+    background-color:blueviolet;
     margin: 0 17%;
 }
 
@@ -36,9 +39,14 @@ body{
 .f-right{
     float:right;
 }
+
 .f-right.w-10,
 .f-left.w-10{
     width: 10%;
+}
+.f-right.w-20,
+.f-left.w-20{
+    width: 20%;
 }
 .f-right.w-30,
 .f-left.w-30{
@@ -55,7 +63,7 @@ body{
 .f-right.w-40,
 .f-left.w-40{
     width: 40%;
-    
+
 }
 .f-right.w-60,
 .f-left.w-60{
@@ -91,7 +99,7 @@ body{
 
 #logo{
     line-height: 80px;
-    padding-top: 5px; 
+    padding-top: 5px;
     padding-left:20px ;
 }
 
@@ -137,8 +145,6 @@ body{
 }
 #hero .sub-content{
     padding-top: 30px;
-   
-
 }
 
 #hero .sub-content .box-right img{
@@ -212,7 +218,7 @@ body{
     padding-bottom: 15px;
    list-style-type: none;
     padding-left: 20px;
-   
+
 }
 .bottom-col ul li:before {
     content:"\2714\0020";
@@ -252,7 +258,7 @@ body{
 #section-patners .content{
     height: 500px;
     /* background-color: lime; */
-    
+
 }
 #section-patners .content img{
     width:90%;
@@ -265,14 +271,14 @@ body{
 #section-operations .content{
     height: 1200px;
     /* background-color: lime;  */
-    
+
 }
 
 #section-operations .content .row{
     height: 50%;
     margin: 0px 15px 15px 0;
     width: 100%;
-    
+
 }
 
 .content .row .card .items{
@@ -282,12 +288,50 @@ body{
     padding-right:10px;
 }
 /************* section logos **************/
-#logos-sections .client{
+#logos-section .client{
     height:200px;
     background-color: yellowgreen;
 }
-#logos-sections #client-links{
+#logos-section #client-links{
     margin:10px 0;
+}
+
+#logos-section .content{
+    height: 400px;
+    width: 100%;
+    background-color: paleturquoise;
+}
+#logos-section .content .box-center{
+    background-color: pink;
+    height:400px;
+}
+
+#logos-section .content .box-right,
+#logos-section .content .box-left{
+    background-color: red;
+    height:400px;
+    padding: 5px;
+}
+
+#logos-section .content .box-left .row{
+    height: 50%;
+    background-color: springgreen;
+}
+#logos-section .content .box-left .row .box-logo{
+    height: 100%;
+    line-height: 100%;
+}
+
+#logos-section .content .box-left .row .box-logo img{
+    width:50%;
+    line-height: 100%;
+}
+
+ #brand1{
+   background-color: #a2d39a;
+}
+#brand2{
+   background-color: #60082a;
 }
 /********** fonts  & symbols ********/
 h1{
@@ -298,7 +342,7 @@ h1{
 h2{
     font-weight:700;
     font-size: 3em;
-  
+
 }
 h3{
     font-weight:600;
@@ -321,14 +365,15 @@ em{
     color: lightgray;
     font-size: 12px;
     padding-left: 30px;
-   
+
 }
 .margin-b{
     margin-bottom:20px;
 }
+
 #section-operations img{
     width:95%;
-} 
+}
 
 .far.fa-building,
 .far.fa-user{
@@ -363,7 +408,7 @@ em{
     color: #000;
     text-decoration: none;
     border: 0.05em solid #000;
-  
+
 }
 .btn.btn-white{
   background-color: #0060fe;
