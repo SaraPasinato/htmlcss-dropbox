@@ -201,9 +201,9 @@ body{
     margin: 20px 0;
 }
 
-#plan-cols hr{
+hr{
     margin: 30px 30px;
-    width: 15%;
+    width: 10%;
     color:rgba(235, 235, 235, 0.858);
     font-weight: lighter;
 }
@@ -297,18 +297,17 @@ body{
 }
 
 #logos-section .content{
-    height: 400px;
-    width: 100%;
-    background-color: paleturquoise;
-}
-#logos-section .content .box-center{
-    background-color: pink;
     height:400px;
+    background-color: #fefffe;
+}
+
+#logos-section .content .box-center{
+    height:400px;
+    padding: 50px;
 }
 
 #logos-section .content .box-right,
 #logos-section .content .box-left{
-    background-color: red;
     height:400px;
 }
 
@@ -341,6 +340,14 @@ body{
     transform: translate(-50%,-50%);
 }
 
+.top-center hr{
+    width:10%;
+    margin-left:0px;
+}
+#patner-logo{
+    width:25%;
+    padding-left:0px;
+}
 .filter-b{
     filter:invert(100%);
 }
@@ -379,8 +386,16 @@ em{
     padding-left: 30px;
 
 }
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
 .margin-b{
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 
 #section-operations img{
