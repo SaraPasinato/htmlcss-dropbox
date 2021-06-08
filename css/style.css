@@ -349,17 +349,18 @@ hr{
 }
 /************* section trial **************/
 #trial-section{
-    height: 250px;
+    height: 400px;
     background-color:#b4d0e6 ;
-    
+
 }
 
 #trial-section .content{
     padding: 0% 17%;
+
 }
 
 #trial-section .content .item{
-    margin: 50px 0;
+    padding: 100px 0;
 }
 /************* section faq **************/
 #faq-section h3{
@@ -462,6 +463,12 @@ blockquote p::after {
     border: 0.05em solid #000;
 
 }
+.btn.btn-black{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+  }
+
 .btn.btn-white{
   background-color: #0060fe;
   color: #fff;
@@ -471,6 +478,8 @@ blockquote p::after {
 .btn.btn-border.btn-small{
     padding: 10px 20px;
 }
+
+.btn.btn-black.btn-large,
 .btn.btn-white.btn-large{
     padding: 10px 60px;
 }
