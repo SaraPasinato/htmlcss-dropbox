@@ -20,7 +20,7 @@
 <body>
     <!-- header : nav + hero-->
     <header class="main-header">
-        <div class="topbar clearfix">
+        <div class="topbar clearfix bg-white fixed-nav">
             <!--logo f-left -->
             <div id="logo" class="f-left w-10 text-left">
                 <a href="#"><img src="./img/logo-small.png" alt="logo-small"></a>
@@ -47,31 +47,31 @@
             <div class="signin f-right w-10 text-center">
                 <a class=" btn btn-white btn-large " href="#">Inizia</a>
             </div>
-
         </div>
-        <!-- hero -->
-        <div id="hero">
-            <!-- container with margin auto -->
-            <div class="container">
-                <div class="content text-left">
-                    <h1>Tutto ciò che serve per il lavoro, in un unico posto</h1>
-                    <div class="sub-content clearfix">
-                        <div class="box-left f-left w-40">
-                            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessivili dallo
-                                stesso posto. Dropox Business è più di uno spazio di archiviazione sicuro: è un modo
-                                intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                            <a class="btn btn-white" href="#">Inizia la tua prova gratuita</a>
-                            <p>Annulla in qualsiasi momento</p>
-                            <i class="fas fa-arrow-down fa-3x"></i>
-                        </div>
-                        <div class="box-right f-right w-60 text-right">
-                            <img src="./img/jumbo.png" alt="">
-                        </div>
-                    </div>
+    </header>
+    <!-- hero -->
+    <div id="hero">
+        <!-- container with margin auto -->
+        <!-- <div class="container"> -->
+        <div class="content text-left">
+            <h1>Tutto ciò che serve per il lavoro, in un unico posto</h1>
+            <div class="sub-content clearfix">
+                <div class="box-left f-left w-40">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessivili dallo
+                        stesso posto. Dropox Business è più di uno spazio di archiviazione sicuro: è un modo
+                        intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                    <a class="btn btn-white" href="#">Inizia la tua prova gratuita</a>
+                    <p>Annulla in qualsiasi momento</p>
+                    <i class="fas fa-arrow-down fa-3x"></i>
+                </div>
+                <div class="box-right f-right w-60 text-right">
+                    <img src="./img/jumbo.png" alt="">
                 </div>
             </div>
         </div>
-    </header>
+        <!-- </div> -->
+    </div>
+
     <main>
         <!-- section plans -->
         <section id="plan-cols">
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                           <!-- second col -->
+                        <!-- second col -->
                         <div class="col f-left">
                             <!-- contents of a col divided into three div :top, center and bottom -->
                             <div class="col-content">
@@ -150,10 +150,10 @@
                                 </div>
                             </div>
                         </div>
-                           <!-- third col -->
+                        <!-- third col -->
                         <div class="col f-left">
                             <!-- contents of a col divided into three div :top, center and bottom -->
-        
+
                             <div class="col-content">
                                 <div class="top-col">
                                     <p class="border-bottom text-center"><i class="far fa-building"></i>Singolo</p>
@@ -229,12 +229,13 @@
         <section id="section-operations">
             <div class="container-small">
                 <h2>Esegui più operazioni con Dropbox Business</h2>
-              <!-- 2 row width 3 card :each card are flotted and the contents inside are img and text -->
+                <!-- 2 row width 3 card :each card are flotted and the contents inside are img and text -->
                 <div class="content clearfix">
                     <div class="row text-left">
                         <div class="card f-left w-33">
                             <div class="items">
-                                <img src="./img/business-feature-switching-tools.png" alt=" images feature switching tools">
+                                <img src="./img/business-feature-switching-tools.png"
+                                    alt=" images feature switching tools">
                                 <h4>Passa di meno da uno strumento all'altro</h4>
                                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e
                                     condividi i contenuti cloud da Documenti, Fogli e Presentazioni di Google, file
@@ -252,7 +253,8 @@
                         </div>
                         <div class="card f-left w-33">
                             <div class="items">
-                                <img src="./img/business-feature-multi-device.png" alt="image business feature multi device">
+                                <img src="./img/business-feature-multi-device.png"
+                                    alt="image business feature multi device">
                                 <h4>Passa di meno da uno strumento all'altro</h4>
                                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e
                                     condividi i contenuti cloud da Documenti, Fogli e Presentazioni di Google, file
@@ -263,7 +265,8 @@
                     <div class="row text-left">
                         <div class="card f-left w-33">
                             <div class="items">
-                                <img src="./img/business-feature-integrations-it.png" alt="image feature integrations it">
+                                <img src="./img/business-feature-integrations-it.png"
+                                    alt="image feature integrations it">
                                 <h4>Passa di meno da uno strumento all'altro</h4>
                                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e
                                     condividi i contenuti cloud da Documenti, Fogli e Presentazioni di Google, file
@@ -272,7 +275,8 @@
                         </div>
                         <div class="card f-left w-33">
                             <div class="items">
-                                <img src="./img/business-feature-send-files-it.png" alt="business feature send files it">
+                                <img src="./img/business-feature-send-files-it.png"
+                                    alt="business feature send files it">
                                 <h4>Passa di meno da uno strumento all'altro</h4>
                                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e
                                     condividi i contenuti cloud da Documenti, Fogli e Presentazioni di Google, file
@@ -314,12 +318,14 @@
                                     <img class="img-large filter-b" src="./img/designit.svg" alt="logo designit">
                                 </div>
                                 <div id="brand2" class="box-logo  f-left w-50">
-                                    <img class="img-large filter-b" src="./img/arizona_state_university.svg" alt="logo asu university">
+                                    <img class="img-large filter-b" src="./img/arizona_state_university.svg"
+                                        alt="logo asu university">
                                 </div>
                             </div>
                             <div class="row clearfix">
                                 <div id="brand3" class="box-logo f-left w-50">
-                                    <img class="img-small filter-b" src="./img/university_of_florida.svg" alt="logo usf university">
+                                    <img class="img-small filter-b" src="./img/university_of_florida.svg"
+                                        alt="logo usf university">
                                 </div>
                                 <div id="brand4" class="box-logo  f-left w-50">
                                     <img class="img-large filter-b" src="./img/topps.svg" alt="logo toops ">
@@ -354,19 +360,22 @@
                         <div class="box-right">
                             <div class="row clearfix">
                                 <div id="brand5" class="box-logo f-left w-50">
-                                    <img class="img-large filter-b" src="./img/world_bicycle_relief.svg" alt="logo world bycycle relife">
+                                    <img class="img-large filter-b" src="./img/world_bicycle_relief.svg"
+                                        alt="logo world bycycle relife">
                                 </div>
                                 <div id="brand6" class="box-logo f-left w-50">
                                     <img class="img-large filter-b" src="./img/hearst_corp.svg" alt="logo hearst corp">
                                 </div>
-                                
+
                             </div>
                             <div class="row clearfix">
                                 <div id="brand7" class="box-logo f-left w-50">
-                                    <img class="img-large filter-b" src="./img/lonely_planet.svg" alt="logo lonely planet">
+                                    <img class="img-large filter-b" src="./img/lonely_planet.svg"
+                                        alt="logo lonely planet">
                                 </div>
                                 <div id="brand8" class="box-logo  f-left w-50">
-                                    <img class="img-large filter-b" src="./img/clear_channel.svg" alt="logo clear channel">
+                                    <img class="img-large filter-b" src="./img/clear_channel.svg"
+                                        alt="logo clear channel">
                                 </div>
                             </div>
                         </div>
@@ -416,7 +425,7 @@
             </div>
         </section>
     </main>
-        <!--footer -->
+    <!--footer -->
     <footer id="main-footer">
         <div class="container">
             <!-- first div with 5 items with link  -->
