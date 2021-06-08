@@ -409,6 +409,20 @@ hr{
     color:#fff;
     text-decoration: none;
  }
+
+ #main-footer hr{
+     border: 0.1px thin #fff;
+     width: 7%;
+     margin-left:2px;
+     margin-bottom: 50px;
+ }
+ #main-footer .container .bottom-footer{
+     height: 10%;
+     width:100%;
+     margin-top:10px;
+     /* background-color: blueviolet; */
+ }
+
 /********** fonts  & symbols ********/
 h1{
     font-weight:900;
@@ -454,6 +468,9 @@ blockquote p::after {
 .margin-b{
     margin-bottom:30px;
 }
+.margin-t{
+    margin-top:30px;
+}
 
 #section-operations img{
     width:95%;
@@ -482,6 +499,9 @@ blockquote p::after {
     line-height: 80px;
 }
 
+#main-footer .lang-footer span{
+    font-size: 16px;
+}
 /******+++ buttons *********/
 
 .btn{
@@ -546,4 +566,8 @@ blockquote p::after {
   #brand8{
      background-color: #fed82f;
     
+  }
+
+  .color-gray{
+      color:lightgray;
   }
