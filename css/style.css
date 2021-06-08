@@ -272,7 +272,7 @@ body{
     height: 50%;
     margin: 0px 15px 15px 0;
     width: 100%;
-
+    
 }
 
 .content .row .card .items{
@@ -280,6 +280,14 @@ body{
 }
 .content .row .card .items p{
     padding-right:10px;
+}
+/************* section logos **************/
+#logos-sections .client{
+    height:200px;
+    background-color: yellowgreen;
+}
+#logos-sections #client-links{
+    margin:10px 0;
 }
 /********** fonts  & symbols ********/
 h1{
@@ -290,6 +298,7 @@ h1{
 h2{
     font-weight:700;
     font-size: 3em;
+  
 }
 h3{
     font-weight:600;
@@ -314,7 +323,9 @@ em{
     padding-left: 30px;
    
 }
-
+.margin-b{
+    margin-bottom:20px;
+}
 #section-operations img{
     width:95%;
 } 
