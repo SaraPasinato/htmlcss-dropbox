@@ -321,10 +321,16 @@ hr{
 }
 #logos-section .content  .row .box-logo{
     height: 100%;
-    position:relative;
+    /* position:relative; */
 }
 
-
+#logos-section .content  .row .box-logo .img-large{
+    width: 80%;
+    height: 50%;
+    margin: 50px 33px;
+}
+/* changed for na fixed */
+/* 
 #logos-section .content  .row .box-logo .img-large{
     width:50%;
     height: 50%;
@@ -333,16 +339,22 @@ hr{
     top:50%;
     transform: translate(-50%,-50%);
     
+} */
+#logos-section .content  .row .box-logo .img-small{
+    width: 84%;
+    height: 24%;
+    margin: 64px 22px;
 }
 
-#logos-section .content  .row .box-logo .img-small{
+/* changed for na fixed */
+/* #logos-section .content  .row .box-logo .img-small{
     width:40%;
     height: 15%;
     position: absolute;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-}
+} */
 
 .top-center hr{
     width:10%;
