@@ -479,9 +479,11 @@ blockquote p::after {
 .far.fa-user{
     padding-right: 10px;
 }
- .far.fa-circle.bold{
+ .far.fa-circle:active{
     filter:drop-shadow(0 0 0.2rem #0060fe);
     color: blue;
+    filter:drop-shadow(50% blue);
+    font-weight:500;
 }
 
 #hero .sub-content .box-left p:first-child{
@@ -573,25 +575,31 @@ blockquote p::after {
     filter:drop-shadow(10%);
     filter:grayscale(0.1);
 }
-  #brand4{
+
+ #brand4{
      background-color: #d4001f;  
-  }
-  #brand4:hover{
+}
+
+#brand4:hover{
     border: 1em solid #cf485c;
     filter:drop-shadow(10%);
     filter:grayscale(0.1);
 }
-  #brand5{
+
+#brand5{
     background-color: #b4d0e6;
  }
+
  #brand5:hover{
     border: 1em solid #d4dfe7;
     filter:drop-shadow(10%);
     filter:grayscale(0.1);
 }
+
  #brand6{
     background-color: #60082a;
  }
+
  #brand6:hover{
     border: 1em solid #863250;
     filter:drop-shadow(10%);
@@ -607,6 +615,7 @@ blockquote p::after {
  filter:drop-shadow(10%);
  filter:grayscale(0.1);
 }
+
 #brand8{
  background-color: #fed82f;  
 }
