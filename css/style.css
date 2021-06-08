@@ -310,33 +310,41 @@ body{
 #logos-section .content .box-left{
     background-color: red;
     height:400px;
-    padding: 5px;
 }
 
-#logos-section .content .box-left .row{
+#logos-section .content  .row{
     height: 50%;
     background-color: springgreen;
 }
-#logos-section .content .box-left .row .box-logo{
+#logos-section .content  .row .box-logo{
     height: 100%;
     position:relative;
 }
 
-#logos-section .content .box-left .row .box-logo img{
+
+#logos-section .content  .row .box-logo .img-large{
     width:50%;
     height: 50%;
     position: absolute;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+
 }
 
- #brand1{
-   background-color: #a2d39a;
+#logos-section .content  .row .box-logo .img-small{
+    width:40%;
+    height: 15%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
-#brand2{
-   background-color: #60082a;
+
+.filter-b{
+    filter:invert(100%);
 }
+
 /********** fonts  & symbols ********/
 h1{
     font-weight:900;
@@ -426,3 +434,36 @@ em{
 .btn.btn-white.btn-large{
     padding: 10px 60px;
 }
+
+/******** colors box *******/
+#brand1{
+    background-color: #a2d39a;
+ }
+ #brand2{
+    background-color: #60082a;
+ }
+ 
+ #brand3{
+     background-color: #0092cd;
+     
+  }
+  #brand4{
+     background-color: #d4001f;
+    
+  }
+
+  #brand5{
+    background-color: #a2d39a;
+ }
+ #brand6{
+    background-color: #60082a;
+ }
+ 
+ #brand7{
+     background-color: #0092cd;
+     
+  }
+  #brand8{
+     background-color: #d4001f;
+    
+  }
