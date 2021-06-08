@@ -22,13 +22,12 @@ body{
     min-width: 1700px;
     /* height: 700px; */
     margin: 0 auto;
-    background-color:palegreen;
+ 
     
 }
 
 .container-small{
-    padding: 10% 0 1% 0;
-    background-color:blueviolet;
+    padding: 10% 0;
     margin: 0 17%;
 }
 
@@ -389,12 +388,10 @@ hr{
  #main-footer .container .top-footer{
      width:100%;
      height: 80%;
-     background-color: blueviolet;
  }
  #main-footer .container .top-footer .items{
     padding: 50px;
     height:100%;
-    background-color: lightslategray;
  }
 
  #main-footer ul{
