@@ -158,7 +158,7 @@ body{
 
 #hero .sub-content .box-right img{
     width:85%;
-    /* filter:drop-shadow(0 0 0.07rem #000); */
+    filter:drop-shadow(0 0 0.07rem #000);
 }
 
 
