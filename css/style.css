@@ -162,8 +162,32 @@ body{
     width:85%;
     filter:drop-shadow(0 0 0.07rem #000);
 }
+/********* div arrow *************/
+.arrow-down {
+    position:fixed;
+    left:10%;
+    top: 90%;
+    z-index: 1;
+}
+.arrow-down a{
+    text-decoration: none;
+    color:black;
+}
+.arrow-down:visited{
+    color:black;
+}
+.arrow-down .fas.fa-arrow-down{
+    animation: bouncing 1s linear infinite alternate;
+}
 
-
+@keyframes bouncing {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(+20%);
+    }
+}
 /*********** section plans ***************/
 .top-content .line-circle{
     margin:30px 0;
