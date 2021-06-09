@@ -175,15 +175,18 @@ body{
     color:black;
 }
 .arrow-down .fas.fa-arrow-down{
-    animation: bouncing 1s linear infinite alternate;
+    animation: bouncing 2s linear infinite ;
 }
 
-@keyframes bouncing {
-    from{
+@keyframes bouncing{
+    0%{
         transform: translateY(0);
     }
-    to{
+    50%{
         transform: translateY(+20%);
+    }
+    100%{
+        transform: translateY(0);
     }
 }
 /*********** section plans ***************/
