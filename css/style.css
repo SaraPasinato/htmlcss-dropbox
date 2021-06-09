@@ -393,6 +393,32 @@ hr{
 .border-b{
     border-bottom: 0.5px solid lightgray;
 }
+
+#a1{
+    display: none;
+}
+
+.answer p{
+    margin: 10px 0;
+}
+
+#chevron .fas.fa-chevron-down:active{
+    transform: rotate(180deg);
+}
+
+.question:active ~ #a1{
+    display:block;
+}
+/* .fas.fa-chevron-down:active{
+    animation: rotate 1s;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(180deg);
+    }
+} */
+
+
 /************* footer  **************/
 
  #main-footer .container{
