@@ -202,7 +202,7 @@ body{
 
 .bottom-col,
 .center-col {
-   padding: 40px 40px 0 40px;
+    padding: 40px 40px 4px 53px;
 }
 .center-col >*{
     padding: 15px 0px;
@@ -326,12 +326,7 @@ hr{
     height: 100%;
     position:relative;
 }
-/* 
-#logos-section .content  .row .box-logo .img-large{
-    width: 80%;
-    height: 50%;
-    margin: 50px 33px;
-} */
+
 
 #logos-section .content  .row .box-logo .img-large{
     width:50%;
@@ -340,14 +335,9 @@ hr{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    
-}
+}  
 
-/* #logos-section .content  .row .box-logo .img-small{
-    width: 84%;
-    height: 24%;
-    margin: 64px 22px;
-} */
+
 
 /* changed for na fixed */
  #logos-section .content  .row .box-logo .img-small{
