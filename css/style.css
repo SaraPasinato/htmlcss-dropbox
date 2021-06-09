@@ -129,8 +129,6 @@ body{
     
 }
 
-
-
 .topbar .main-nav li:hover{
     border-bottom: solid 4px #000;
 
@@ -166,7 +164,7 @@ body{
 .arrow-down {
     position:fixed;
     left:10%;
-    top: 90%;
+    top: 65%;
     z-index: 1;
 }
 .arrow-down a{
