@@ -94,7 +94,7 @@ body{
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
     right:0; /* Position the navbar at the top of the page */
-
+    z-index: 1;
 }
 .main-header .topbar{
 
@@ -120,7 +120,7 @@ body{
 .topbar .main-nav li{
     display: inline-block;
     padding: 0 15px;
-    
+    line-height: 75px;
 }
 
 .topbar a{
@@ -130,8 +130,11 @@ body{
     
 }
 
-.topbar .main-nav a:hover{
-    text-decoration: underline;
+
+
+.topbar .main-nav li:hover{
+    border-bottom: solid 4px #000;
+
 }
 /* Hero*/
 #hero{
@@ -321,16 +324,15 @@ hr{
 }
 #logos-section .content  .row .box-logo{
     height: 100%;
-    /* position:relative; */
+    position:relative;
 }
-
+/* 
 #logos-section .content  .row .box-logo .img-large{
     width: 80%;
     height: 50%;
     margin: 50px 33px;
-}
-/* changed for na fixed */
-/* 
+} */
+
 #logos-section .content  .row .box-logo .img-large{
     width:50%;
     height: 50%;
@@ -339,22 +341,23 @@ hr{
     top:50%;
     transform: translate(-50%,-50%);
     
-} */
-#logos-section .content  .row .box-logo .img-small{
+}
+
+/* #logos-section .content  .row .box-logo .img-small{
     width: 84%;
     height: 24%;
     margin: 64px 22px;
-}
+} */
 
 /* changed for na fixed */
-/* #logos-section .content  .row .box-logo .img-small{
+ #logos-section .content  .row .box-logo .img-small{
     width:40%;
     height: 15%;
     position: absolute;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-} */
+} 
 
 .top-center hr{
     width:10%;
