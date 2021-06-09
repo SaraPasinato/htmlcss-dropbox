@@ -101,8 +101,7 @@ body{
     height: 80px;
     line-height: 80px;
      width: 100%; 
-  
-   
+    border-bottom: 0.5px solid #cecece;
 }
 
 #logo{
