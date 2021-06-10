@@ -149,11 +149,8 @@ body{
 } 
 
 #hero .content{
-    position:relative;
-}
-#hero .content{
     padding:100px;
-
+    position:relative;
 }
 #hero .sub-content{
     padding-top: 30px;
