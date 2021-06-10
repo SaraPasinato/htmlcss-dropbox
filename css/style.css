@@ -149,6 +149,9 @@ body{
 } 
 
 #hero .content{
+    position:relative;
+}
+#hero .content{
     padding:100px;
 
 }
