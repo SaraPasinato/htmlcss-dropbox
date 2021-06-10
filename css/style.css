@@ -163,8 +163,8 @@ body{
 /********* div arrow *************/
 .arrow-down {
     position:fixed;
-    left:10%;
-    top: 65%;
+    left:5%;
+    bottom: 10%;
     z-index: 1;
 }
 .arrow-down a{
